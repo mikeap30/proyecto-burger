@@ -7,8 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>BURGER BAZAAR</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- icon-->
+    <link rel="icon" type="image/x-icon" href="assets/burger.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles3.css" rel="stylesheet" />
-
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/scripts2.js"></script>
 </head>
 
 <body>
@@ -24,11 +25,11 @@
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center" id="texto">
                 <h2 class="section-heading text-uppercase">Burger Bazaar</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">las variedades hechas a tu medida</h3>
             </div>
-            <div class="row">
+            <div class="row" id="moto">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 1-->
                     <div class="portfolio-item">
@@ -36,10 +37,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/1.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-heading">Clasica</div>
                             <div class="portfolio-caption-subheading text-muted">Illustration</div>
                         </div>
                     </div>
@@ -51,10 +52,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/2.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-heading">Rustica</div>
                             <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
                         </div>
                     </div>
@@ -66,10 +67,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/3.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
+                            <div class="portfolio-caption-heading">Bold</div>
                             <div class="portfolio-caption-subheading text-muted">Identity</div>
                         </div>
                     </div>
@@ -81,10 +82,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/4.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
+                            <div class="portfolio-caption-heading">Grizzly</div>
                             <div class="portfolio-caption-subheading text-muted">Branding</div>
                         </div>
                     </div>
@@ -96,10 +97,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/5.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
+                            <div class="portfolio-caption-heading">Nova</div>
                             <div class="portfolio-caption-subheading text-muted">Website Design</div>
                         </div>
                     </div>
@@ -111,15 +112,108 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/6.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
+                            <div class="portfolio-caption-heading">Edge</div>
                             <div class="portfolio-caption-subheading text-muted">Photography</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Portfolio item 1-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/7.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Swift</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Portfolio item 2-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/8.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading"> Blaze</div>
+                        <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Portfolio item 3-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/9.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Zen</div>
+                        <div class="portfolio-caption-subheading text-muted">Identity</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <!-- Portfolio item 4-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/4.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Noir</div>
+                        <div class="portfolio-caption-subheading text-muted">Branding</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                <!-- Portfolio item 5-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/5.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Zest</div>
+                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <!-- Portfolio item 6-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/portfolio/6.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Fusion</div>
+                        <div class="portfolio-caption-subheading text-muted">Photography</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
@@ -132,21 +226,22 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Fusion</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/6.jpg"
+                                    alt="..." />
+                                <p>La hamburguesa Fusion es una hamburguesa gourmet con una carne de res jugosa y
+                                    sabrosa, cubierta con queso Monterey Jack y una mezcla especial de salsas
+                                    orientales, servida en un pan brioche tostado.</p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Photography
+                                        <strong>2 medallones de carne de res <br>
+                                            Lechuga fresca <br>
+                                            Tomate fresco<br>
+                                            Pepinillos encurtidos<br>
+                                            Salsa Fusion (puede ser una salsa especial de la casa o una mezcla de salsas
+                                            orientales)</strong>
+
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
@@ -173,13 +268,12 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Clasica</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/1.jpg"
+                                    alt="..." />
+                                <p>La hamburguesa clásica es una deliciosa combinación de carne de res jugosa y queso
+                                    fundido en un pan tostado con un toque de salsa ketchup y mostaza.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -213,13 +307,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Rustica</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/2.jpg"
+                                    alt="..." />
+                                <p> La hamburguesa rústica es una hamburguesa casera hecha con carne picada de cerdo o
+                                    ternera, cebolla y hierbas frescas, servida en un pan artesanal con una pizca de sal
+                                    marina.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -253,13 +347,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Bold</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/3.jpg"
+                                    alt="..." />
+                                <p>La hamburguesa Bold es una hamburguesa gourmet con una carne jugosa y sabrosa
+                                    cubierta con queso cheddar, tocino crujiente y cebolla frita en un pan artesanal con
+                                    una salsa especial.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -293,13 +387,12 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Grizzly</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/4.jpg"
+                                    alt="..." />
+                                <p>La hamburguesa Grizzly es una hamburguesa de carne de cordero picante, cubierta con
+                                    queso de cabra y servida en un pan de pita fresco con lechuga y tomate.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -333,13 +426,12 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Nova</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/5.jpg"
+                                    alt="..." />
+                                <p>La hamburguesa Nova es una hamburguesa vegetariana hecha con un filete de garbanzo a
+                                    la parrilla, queso feta, espinacas y una salsa de yogur en un pan artesanal.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -373,13 +465,13 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Edge</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/6.jpg"
+                                    alt="..." />
+                                <p> La hamburguesa Edge es una hamburguesa gourmet con una carne de res picante y
+                                    sabrosa, cubierta con queso azul y una salsa de cebolla caramelizada, servida en un
+                                    pan brioche tostado.</p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -405,101 +497,7 @@
     </section>
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/7.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 2-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/8.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/9.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <!-- Portfolio item 4-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <!-- Portfolio item 5-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -513,7 +511,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/6.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -554,7 +553,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/7.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -594,7 +594,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/8.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/8.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -634,7 +635,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/9.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/9.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -674,7 +676,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/4.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -714,7 +717,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/5.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -754,7 +758,8 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/6.jpg"
+                                    alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
@@ -781,15 +786,10 @@
             </div>
         </div>
     </div>
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="js/animacion.js"></script>
+    <script src="js/scripts2.js"></script>
 </body>
 
 </html>
