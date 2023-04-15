@@ -11176,4 +11176,8 @@ input[type="reset"]:hover {
   margin-bottom: 16rem;
 }
 
-
+#mapa {
+  border: s;
+	height: 300px;
+	width: 100%;
+}

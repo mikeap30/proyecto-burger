@@ -29,3 +29,16 @@ window.sr = ScrollReveal();
   });
 
   
+  window.sr = ScrollReveal();
+  sr.reveal('#principal', {
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+  });
+  
+  window.sr = ScrollReveal();
+  sr.reveal('#mapa', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+  });

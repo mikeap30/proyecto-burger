@@ -51,10 +51,16 @@ sr.reveal('#moto', {
   origin: 'top',
   distance: '-100px'
 });
+window.sr = ScrollReveal();
+sr.reveal('#moto2', {
+  duration: 4000,
+  origin: 'top',
+  distance: '-100px'
+});
 
 window.sr = ScrollReveal();
 sr.reveal('#texto', {
   duration: 2000,
-  origin: 'top',
+  origin: 'bottom',
   distance: '-100px'
 });
