@@ -64,3 +64,10 @@ sr.reveal('#texto', {
   origin: 'bottom',
   distance: '-100px'
 });
+
+window.sr = ScrollReveal();
+sr.reveal('#uno', {
+  duration: 1000,
+  origin: 'left',
+  distance: '-100px'
+});
