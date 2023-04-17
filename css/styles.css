@@ -10956,6 +10956,7 @@ html {
 }
 
 .callout {
+  margin-bottom: 1.5rem;
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
@@ -11179,7 +11180,7 @@ input[type="reset"]:hover {
   @media (max-width: 600px) {
     
     #principal {
-      margin-bottom: 20rem; 
+      margin-bottom: 29rem; 
     }
   }
 
