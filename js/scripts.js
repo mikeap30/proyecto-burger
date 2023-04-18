@@ -1,5 +1,4 @@
 
-import Swal from 'sweetalert2'
 window.addEventListener('DOMContentLoaded', event => {
 
     const sidebarWrapper = document.getElementById('sidebar-wrapper');

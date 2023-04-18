@@ -586,6 +586,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
+  border-radius: 0%;
   content: "— ";
 }
 
@@ -4189,6 +4190,7 @@ textarea.form-control-lg {
 }
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
+  border-radius: 0%;
   border-top: 0;
 }
 
@@ -10869,6 +10871,7 @@ html {
 }
 
 #sidebar-wrapper {
+  border-radius: 0%;
   position: fixed;
   z-index: 2;
   right: 0;
@@ -10881,6 +10884,7 @@ html {
 }
 
 .sidebar-nav {
+  border-radius: 0%;
   position: absolute;
   top: 0;
   width: 250px;
@@ -10908,6 +10912,7 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand {
+  border-radius: 0%;
   font-size: 1.2rem;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
