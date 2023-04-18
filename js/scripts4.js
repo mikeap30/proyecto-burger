@@ -92,3 +92,10 @@ window.sr = ScrollReveal();
     origin: 'top',
     distance: '-100px'
   });
+
+  window.sr = ScrollReveal();
+  sr.reveal('#historia', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+  });

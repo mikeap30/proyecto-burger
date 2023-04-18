@@ -9,19 +9,39 @@
     <title>BURGER BAZAAR</title>
     <!-- icon-->
     <link rel="icon" type="image/x-icon" href="assets/burger.ico" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+
     <script src="js/scrollreveal.js"></script>
     <script src="js/scripts2.js"></script>
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/styles4.css" rel="stylesheet" />
+    
 </head>
 
-<body>
+<body id="page-top">
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="index.html">BURGER BAZAAR</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="index2.html">Variedad</a></li>
+            <li class="sidebar-nav-item"><a href="index3.html">Nosotros</a></li>
+            <li class="sidebar-nav-item"><a href="index.html#portfolio">Nuestro fuerte</a></li>
+            <li class="sidebar-nav-item"><a href="index.html#mapa">Ubicacion</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     </section>
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
@@ -33,15 +53,15 @@
             <div class="row" id="moto">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 1-->
-                    <div class="portfolio-item" >
+                    <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content" id="uno" ><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content" id="uno"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid"  loading="lazy" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid" loading="lazy" src="assets/img/portfolio/1.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading" >Clasica</div>
+                            <div class="portfolio-caption-heading">Clasica</div>
                             <div class="portfolio-caption-subheading text-muted"></div>
                         </div>
                     </div>
@@ -136,20 +156,20 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase" id="detalle" >Clasica</h2>
+                                <h2 class="text-uppercase" id="detalle">Clasica</h2>
                                 <p class="item-intro text-muted"></p>
                                 <img class="img-fluid d-block mx-auto" loading="lazy" src="assets/img/portfolio/1.jpg"
                                     alt="..." />
                                 <p>La hamburguesa clásica es una deliciosa combinación de carne de res jugosa y queso
                                     fundido en un pan tostado con un toque de salsa ketchup y mostaza.</p>
                                 <ul class="list-inline">
-                            
 
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    salir
-                                </button>
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                        type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        salir
+                                    </button>
                             </div>
                         </div>
                     </div>
@@ -175,7 +195,7 @@
                                 <p> La hamburguesa rústica es una hamburguesa casera hecha con carne picada de cerdo o
                                     ternera, cebolla y hierbas frescas, servida en un pan artesanal con una pizca de sal
                                     marina.</p>
-                            
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -206,7 +226,7 @@
                                 <p>La hamburguesa Bold es una hamburguesa gourmet con una carne jugosa y sabrosa
                                     cubierta con queso cheddar, tocino crujiente y cebolla frita en un pan artesanal con
                                     una salsa especial.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -236,7 +256,7 @@
                                     alt="..." />
                                 <p>La hamburguesa Grizzly es una hamburguesa de carne de cordero picante, cubierta con
                                     queso de cabra y servida en un pan de pita fresco con lechuga y tomate.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -266,7 +286,7 @@
                                     alt="..." />
                                 <p>La hamburguesa Nova es una hamburguesa vegetariana hecha con un filete de garbanzo a
                                     la parrilla, queso feta, espinacas y una salsa de yogur en un pan artesanal.</p>
-                               
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -297,7 +317,7 @@
                                 <p> La hamburguesa Edge es una hamburguesa gourmet con una carne de res picante y
                                     sabrosa, cubierta con queso azul y una salsa de cebolla caramelizada, servida en un
                                     pan brioche tostado.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -428,7 +448,7 @@
                                 <p>La hamburguesa Swift es una hamburguesa de pollo frito picante, cubierta con queso
                                     pepper jack y servida en un pan brioche con una salsa especial de miel y mostaza.
                                 </p>
-                               
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -458,11 +478,11 @@
                                     alt="..." />
                                 <p>La hamburguesa Blaze es una hamburguesa con carne de res picante y queso Monterey
                                     Jack derretido en un pan artesanal con una salsa de jalapeño y aguacate fresco.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    salir 
+                                    salir
                                 </button>
                             </div>
                         </div>
@@ -489,7 +509,7 @@
                                 <p>La hamburguesa Zen es una hamburguesa vegetariana hecha con un filete de berenjena a
                                     la parrilla, queso de cabra, espinacas frescas y una salsa de pesto en un pan de
                                     trigo integral.</p>
-                               
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -520,7 +540,7 @@
                                 <p>La hamburguesa Noir es una hamburguesa gourmet con una carne de búfalo jugosa y
                                     sabrosa, cubierta con queso gouda ahumado y servida en un pan de centeno con una
                                     salsa de arándanos picante.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -551,7 +571,7 @@
                                 <p>La hamburguesa Zest es una hamburguesa gourmet con una carne de cerdo picante y
                                     sabrosa, cubierta con queso cheddar y una salsa especial de miel y mostaza, servida
                                     en un pan tostado con un toque de limón.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -582,7 +602,7 @@
                                 <p> La hamburguesa Fusion es una hamburguesa gourmet con una carne de res jugosa y
                                     sabrosa, cubierta con queso Monterey Jack y una mezcla especial de salsas
                                     orientales, servida en un pan brioche tostado.</p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -595,32 +615,35 @@
             </div>
         </div>
     </div>
-    <footer class="footer text-center" id="nuevofooter">
+    <footer class="footer text-center" id="contact">
         <div class="container px-4 px-lg-5">
             <ul class="list-inline mb-5">
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#!"><i
-                            class="icon-social-facebook"></i></a>
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank"
+                        href="https://www.facebook.com/"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#!"><i
-                            class="icon-social-twitter"></i></a>
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank"
+                        href="https://twitter.com/?lang=es"><i class="icon-social-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#!"><i class="bi bi-instagram"></i></a>
+                    <a class="social-link rounded-circle text-white" target="_blank"
+                        href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#!"><i class="bi bi-whatsapp"></i></a>
+                    <a class="social-link rounded-circle text-white" target="_blank"
+                        href="https://www.whatsapp.com/?lang=es"><i class="bi bi-whatsapp"></i></a>
 
                 </li>
             </ul>
 
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/animacion.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="js/scripts2.js"></script>
+</body>
 
 </html>

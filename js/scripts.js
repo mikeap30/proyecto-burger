@@ -1,4 +1,5 @@
 
+import Swal from 'sweetalert2'
 window.addEventListener('DOMContentLoaded', event => {
 
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
@@ -84,6 +85,9 @@ function validarFormulario() {
     if (nombre == "") {
         alert("Por favor, introduce tu nombre.");
         return false;
+    } else if (!/^[a-zA-Z\s]*$/.test(nombre)) {
+        alert("Por favor, introduce solo letras en el campo de nombre.");
+        return false;
     }
 
     if (correo == "") {
@@ -122,3 +126,6 @@ function validarTelefono(telefono) {
     return expresionRegular.test(telefono);
 }
 
+
+  
+  

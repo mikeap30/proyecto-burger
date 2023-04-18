@@ -9,17 +9,31 @@
     <title>BURGER BAZAAR</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/burger.ico" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    rel="stylesheet" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <script src="js/scrollreveal.js"></script>
+    <script src="js/scrollreveal.js"></script> 
+    <link href="css/styles.css" rel="stylesheet" />
     <link href="css/styles4.css" rel="stylesheet" />
 </head>
-
 <body id="page-top">
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="index.html">BURGER BAZAAR</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="index2.html">Variedad</a></li>
+            <li class="sidebar-nav-item"><a href="index3.html">Nosotros</a></li>
+            <li class="sidebar-nav-item"><a href="index.html#portfolio">Nuestro fuerte</a></li>
+            <li class="sidebar-nav-item"><a href="index.html#mapa">Ubicacion</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <!-- Masthead-->
     <header class="masthead">
         <div class="container" id="principal">
@@ -33,7 +47,7 @@
     <section class="page-section" id="about">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Historia
+                <h2 class="section-heading text-uppercase" id="historia">Historia
                 </h2>
 
             </div>
@@ -386,13 +400,35 @@
             </div>
         </div>
     </div>
-    <section id="footer11">
-        <div ></div>
+    <footer class="footer text-center" id="contact">
+        <div class="container px-4 px-lg-5">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.facebook.com/"><i
+                            class="icon-social-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/?lang=es"><i
+                            class="icon-social-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" target="_blank" href="https://www.whatsapp.com/?lang=es"><i class="bi bi-whatsapp"></i></a>
+
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
     </section>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts4.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
